@@ -158,3 +158,30 @@ body {
 }
 
 /*  skills section */
+
+
+
+
+/* iventory */
+
+.inventory {
+  background: var(--mainGrey);
+}
+
+.card-img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.car-value {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  transition: all 1s linear;
+}
+
+.car-value:hover {
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/*end iventory */
