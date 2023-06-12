@@ -280,3 +280,37 @@ body {
 }
 
 /*end featured  */
+
+/* gallery */
+
+.gallery-item {
+  background: var(--mainYellow);
+  position: relative;
+}
+
+.gallery-img {
+  transition: all 1s;
+}
+
+.gallery-item:hover .gallery-img {
+  opacity: 0.5;
+}
+
+.gallery-item::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: 0.5rem solid var(--mainWhite);
+  outline-offset: -2rem;
+  transition: all 1s;
+  transform: scale(0);
+}
+
+.gallery-item:hover::after {
+  transform: scale(1);
+}
+
+/*end gallery */
