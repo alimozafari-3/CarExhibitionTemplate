@@ -314,3 +314,31 @@ body {
 }
 
 /*end gallery */
+
+/* contact */
+
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/headerBcg.jpeg')center/cover fixed no-repeat;
+}
+
+.contact-input {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: var(--mainYellow);
+  color: var(--mainYellow) !important;
+}
+
+.contact-input::placeholder {
+  color: var(--mainYellow);
+}
+
+.contact-input:focus {
+  background: transparent;
+  border-color: var(--mainYellow);
+}
+
+.btn-contact:hover {
+  color: var(--mainWhite);
+}
+
+/*end contact */
