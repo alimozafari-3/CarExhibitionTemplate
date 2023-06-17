@@ -423,3 +423,21 @@ body {
 }
 
 /* customer */
+
+/* footer */
+
+.footer {
+  background-color: var(--mainBlack);
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  color: var(--mainYellow);
+  transition: all 1s;
+}
+
+.footer-icon:hover {
+  color: var(--mainBlue);
+}
+
+/* footer */
